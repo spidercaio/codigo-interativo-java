@@ -15,7 +15,7 @@ public class TesteExecucao {
             int idade = scanner.nextInt();
 
             System.out.println("Por último... qual sua altura? ");
-            final double altura = scanner.nextDouble();
+            double altura = scanner.nextDouble();
 
             System.out.println("Olá, ser humano chamado " + nome + " " + sobrenome);
             System.out.println("Hm... então você tem " + idade + " anos, ein?");
