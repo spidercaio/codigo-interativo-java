@@ -4,7 +4,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 ~~~
-#### Após isso, adicionei o comando _try_ em substituição do comando _throws Exception_ para limitar a apenas esta parte do código e criei a variável _scanner_:
+#### Após isso, criei a variável _scanner_:
 ~~~ Java
 try (Scanner scanner = new Scanner(System.in).useLocale(Locale.US))
 ~~~
